@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: yellow;
 
 }
 
@@ -17,4 +17,8 @@ body {
     margin-left: 5%;
   text-align: flex;
 
+}
+
+.next {
+    font-size: 500%;
 }
