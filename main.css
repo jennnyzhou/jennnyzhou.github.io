@@ -3,5 +3,26 @@ body {
 }
 
 .center {
-    object-position: center;
+   position: absolute;
+    margin-left: 29.5%;
+    margin-top: 8%;
 }
+
+.h1 {
+    color: white;
+}
+
+
+a {
+    color: white;
+    font-family: 'helvetica-bold';
+    text-decoration: none;
+    margin-left: 70%;
+    margin-top: 12%;
+    position: absolute;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: none;
+  }
