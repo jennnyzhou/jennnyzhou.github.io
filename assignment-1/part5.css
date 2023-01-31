@@ -3,7 +3,7 @@ body{
 }
 
 .container {
-    max-width: 50%;
+    max-width: 10%;
     padding: 50px;
     display: flex;
     margin-top: 100;
