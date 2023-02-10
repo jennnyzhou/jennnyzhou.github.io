@@ -4,39 +4,27 @@ body {
     background-color: #94b886;
 }
 
-h1 {
-    font-family: 'unbounded', cursive;
-    font-weight: 600 ;
-    color: white;
-    font-size: 150px;
-    position: absolute;
-    margin-top: 25%;
-}
-
-h2{
-    font-family: 'unbounded', cursive;
-    font-weight: 400;
-    color: white;
-    font-size: 30px;
-    position: absolute;
-    margin-top: 8%;
-    margin-left: 75%;
-}
-
 a {
     font-family: 'unbounded', cursive;
-    font-size: 30px;
-    font-weight: 300;
+    font-weight: 300 ;
     color: white;
-    text-decoration: none;
+    font-size: 30px;
     position: absolute;
-    margin-top: 13%;
-    margin-left: 75%;
+    margin-top: 25%;
+    margin-left: 5%;
+    text-decoration: none;
 }
-
 a:hover{
     color: #64785c;
 }
 
-
+h2{
+    font-family: 'unbounded', cursive;
+    font-weight: 300;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    margin-left: 35%;
+    padding: 40px;
+}
 
