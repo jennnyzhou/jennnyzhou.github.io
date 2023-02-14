@@ -8,9 +8,9 @@ a {
     font-family: 'unbounded', cursive;
     font-weight: 900 ;
     color: white;
-    font-size: 30px;
+    font-size: 70px;
     position: absolute;
-    margin-top: 27%;
+    margin-top: 5%;
     margin-left: 5%;
     text-decoration: none;
 }
@@ -23,7 +23,7 @@ h2{
     font-family: 'unbounded', cursive;
     font-weight: 800;
     color: white;
-    font-size: 30px;
+    font-size: 50px;
     position: relative;
     margin-left: 35%;
     padding-top: 40px;
@@ -33,7 +33,7 @@ p{
     font-family: 'unbounded', cursive;
     font-weight: 300;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     position: relative;
     margin-left: 35%;
 }

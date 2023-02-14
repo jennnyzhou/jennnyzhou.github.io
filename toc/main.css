@@ -38,5 +38,32 @@ a:hover{
     color: #64785c;
 }
 
+.two {
+    margin-top: 15%;
+    margin-left: 75%;
+    position: absolute;
+}
 
+.three {
+    margin-top: 17%;
+    margin-left: 75%;
+    position: absolute;
+}
 
+.four {
+    margin-top: 19%;
+    margin-left: 75%;
+    position: absolute;
+}
+
+.five {
+    margin-top: 21%;
+    margin-left: 75%;
+    position: absolute;
+}
+
+.six {
+    margin-top: 23%;
+    margin-left: 75%;
+    position: absolute;
+}

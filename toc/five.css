@@ -6,7 +6,7 @@ body {
 
 a {
     font-family: 'unbounded', cursive;
-    font-weight: 900 ;
+    font-weight: 600 ;
     color: white;
     font-size: 30px;
     position: absolute;
@@ -16,12 +16,13 @@ a {
 }
 a:hover{
     color: #64785c;
+    text-decoration: underline;
 }
 
 
 h2{
     font-family: 'unbounded', cursive;
-    font-weight: 800;
+    font-weight: 600;
     color: white;
     font-size: 30px;
     position: relative;

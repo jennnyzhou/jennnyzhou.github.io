@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-color: #94b886;
+}
+
+a {
+    font-family: 'unbounded', cursive;
+    font-weight: 300 ;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 5%;
+    text-decoration: none;
+}
+a:hover{
+    color: #64785c;
+}
+
+h2{
+    font-family: 'unbounded', cursive;
+    font-weight: 300;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    margin-left: 35%;
+    padding: 40px;
+}
+

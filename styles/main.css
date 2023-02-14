@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@700&display=swap');
+
+body{
+    background-color: white;
+    font-family: 'itim', cursive;
+    color: black;
+    padding: 25px;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 2em;
+    font-family:'mitr'
+}
+
+h2{
+    font-size:30px;
+}
+
+.rating{
+    background-color:lightgray;
+}
+.rating summary:after {
+    content: +;
+}
