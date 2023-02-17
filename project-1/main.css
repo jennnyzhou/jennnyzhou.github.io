@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 body {
     background-color: #4e594e;
@@ -15,4 +16,27 @@ h1{
     margin-top: 17%;
 }
 
+a{
+    transition: transform .7s ease-in-out;
+}
+a:link {
+    color: #c0cc95;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+a:visited{
+    color: #c0cc95;
+    text-decoration: none;
+}
+
+div{
+    transition: transform 1.5s ease-in-out;
+}
+
+div:hover{
+    transform: rotate(360deg);
+}
   

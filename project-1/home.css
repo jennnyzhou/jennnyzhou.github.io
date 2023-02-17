@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap');
+
+body{
+    background: #4e594e;
+}
+
+
+
+.right {
+    font-family: 'EB Garamond', serif;
+    margin-top: 5%;
+    margin-left: 6%;
+}
+
+  .h6r {
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 21%;
+    font-size: 20px;
+  }
+
+  .h5r {
+    position: absolute;
+    margin-left: 75%;
+    margin-top: 24%;
+    font-size: 30px;
+  }
+
+  .h4r {
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 28%;
+    font-size: 40px;
+  }
+
+  .h3r {
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 32%;
+    font-size: 50px;
+  }
+  
+  .h2r {
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 37%;
+    font-size: 60px;
+  }
+
+  .h1r {
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 43%;
+    font-size: 70px;
+  }
+
+
+
+  .left {
+    font-family: 'EB Garamond', serif;
+    margin-top: 5%;
+}
+
+.h6l {
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 21%;
+    font-size: 20px;
+  }
+
+  .h5l {
+    position: absolute;
+    margin-left: 13%;
+    margin-top: 24%;
+    font-size: 30px;
+  }
+
+  .h4l {
+    position: absolute;
+    margin-left: 16%;
+    margin-top: 28%;
+    font-size: 40px;
+  }
+
+  .h3l {
+    position: absolute;
+    margin-left: 19%;
+    margin-top: 32%;
+    font-size: 50px;
+  }
+  
+  .h2l {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 37%;
+    font-size: 60px;
+  }
+
+  .h1l {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 43%;
+    font-size: 70px;
+  }
+
+  a:link {
+    color: #c0cc95;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: #c0cc95;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #728272;
+  }
+
+.glow {
+    position: absolute;
+    top: calc(50% - 20px);
+    left: calc(50% - 20px);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #cde6be;
+    box-shadow:
+      0 0 60px 30px #cde6be,
+      0 0 100px 60px #cde6be,
+      0 0 140px 90px #8fb094;
+  }
+
