@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body{
+    background: #4e594e;
+    
+}
+
+p {
+    font-family: 'EB Garamond', serif;
+    color: #c0cc95;
+    font-size: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    font-weight: 500;
+    position: relative;
+    margin-top: -30%;
+    padding-bottom: 100px;
+
+}
+
+
+.path {
+    position: relative;
+}
+
+  path {
+    fill: transparent;
+    margin-top: 150%;
+ 
+  }
+  
+  text {
+    fill: #c0cc95;
+    font-size: 10px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    margin-top: 150%;
+
+  }
+
+
+
+a {
+    color: #c0cc95;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+p em {
+    color: #c0cc95;
+    font-weight: 500;
+}
+.rose {
+    color: #f2b6dd;
+}
+.rose:hover {
+    background: #6da167;
+}
+
+.blue {
+    color: #6383cf;
+}
+.blue:hover {
+    background: #eba86e;
+}
+
+.gray {
+    color: gray;
+}
+
+.gray:hover {
+    background: #ebdfb7;
+}
+
+.transparent {
+    color: #4e594e;
+}
+
+.transparent:hover {
+    background: #b3828f;
+}
+
+.black {
+    color: black;
+}
+
+.black:hover {
+    background: white
+}
+
+a{
+    transition: transform .7s ease-in-out;
+    position: relative;
+    margin-top: 190%;
+    margin-left: 48%;
+    padding-bottom: 100px;
+
+}
+a:link {
+    color: #c0cc95;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+a:visited{
+    color: #c0cc95;
+    text-decoration: none;
+}
+
+div{
+
+}
+
+div:hover{
+    transform: rotate(360deg);
+}
