@@ -1,7 +1,19 @@
-@keyframes {
-    
+body {
+    background-color: black;
 }
 
 #star {
-    fill: blue;
+    width: 300px;
+animation: swirlSpin 3s infinite;
+
 }
+
+@keyframes swirlSpin {
+    0% {
+      transform: rotate(0turn);
+    }
+    100% {
+      transform: rotate(1turn);
+    }
+  }
+
