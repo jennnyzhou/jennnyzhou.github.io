@@ -1,0 +1,226 @@
+[
+	{
+		"name": "rosika gurung",
+		"mustorder": "udon and beef",
+        "favourite": "noodle, meat",
+		"favouritespot": "haidilao", 
+		"location": "london",
+        "significance": "it is a comfort food; what i love about it most is that i can sit there and eat for hours without being fully full until the end — literally feel like i have multiple lives every 15 min."
+	},
+
+    {
+		"name": "allison leung",
+		"mustorder": "rice cakes and beef",
+        "favourite": "dough, meat",
+		"favouritespot": "chongqing lao zao", 
+		"location": "new york city",
+        "significance": " it’s like the perfect homie/family time; you’re technically doing your own thing but together. "
+	},
+
+    {
+		"name": "alex wu",
+		"mustorder": "soy rolls",
+        "favourite": "tofu",
+		"favouritespot": "dolar store", 
+		"location": "new york city",
+        "significance": "it’s socializing — you not only share a pot, you also share conversations, stories, and memories."
+	},
+
+    {
+		"name": "lisa le",
+		"mustorder": "enoki mushrooms",
+        "favourite": "mushroom",
+		"favouritespot": "haidilao", 
+		"location": "new york city",
+        "significance": "it signifies gathering to me"
+	},
+
+    {
+		"name": "ren ko",
+		"mustorder": "sliced beef, ramen, cabbage, fish balls",
+        "favourite": "meat, noodle, vegetable, fish",
+		"favouritespot": "home", 
+		"location": "california",
+        "significance": "it’s super important to me and my family. i never want to go out to any hotpot restaurant because it’s so good at home. It’s good on an extremely cold day and super fun family style activity. "
+	},
+
+    {
+		"name": "yamila shih",
+		"mustorder": "pork balls, glass noodles",
+        "favourite": "meat, noodle",
+		"favouritespot": "jianghu", 
+		"location": "buenos aires",
+        "significance": "hotpot is love, hotpot is life."
+	},
+
+    {
+		"name": "my hoang",
+		"mustorder": "quail eggs",
+        "favourite": "egg",
+		"favouritespot": "dolar store", 
+		"location": "new york city",
+        "significance": "hotpot to me signifies comfort"
+	},
+
+    {
+		"name": "antioch hwang",
+		"mustorder": "quail eggs",
+        "favourite": "egg",
+		"favouritespot": "happy lamb", 
+		"location": "new jersey",
+        "significance": " it used to be a family tradition to have it during holidays at home. we used to eat in order from oldest to youngest."
+	},
+
+    {
+		"name": "grace xu",
+		"mustorder": "beef, pork",
+        "favourite": "meat",
+		"favouritespot": "haidilao", 
+		"location": "new york city",
+        "significance": "being able to eat together even if everyone has different preferences"
+	},
+    
+    {
+		"name": "nancy zhou",
+		"mustorder": "cabbage",
+        "favourite":"vegetable",
+		"favouritespot": "haidilao", 
+		"location": "diamond bar",
+        "significance": "i feel like it’s inherently a communal meal so it’s eaten a lot at family gatherings. also showing it to my white friends in the midwest because it’s approachable as you can put whatever you already like in it. "
+	},
+
+    {
+		"name": "jimmy liang",
+		"mustorder": "fish/shrimp balls",
+        "favourite": "fish",
+		"favouritespot": "liuyishou", 
+		"location": "new york city",
+        "significance": "brings happiness by sharing the food with the people you like or feel comfortable with"
+	},
+
+    {
+		"name": "martina jang",
+		"mustorder": "noodles, mushrooms, rice cakes",
+        "favourite": "noodle, mushroom, dough",
+		"favouritespot": "grandparents'", 
+		"location": "buenos aires",
+        "significance": "hotpot is love."
+	},
+
+    {
+		"name": "jaison lin",
+		"mustorder": "beef and napa cabbage",
+        "favourite": "meat, vegetable",
+		"favouritespot": "99 flavor taste", 
+		"location": "hong kong/new york city",
+        "significance": "hotpot is a special marker for large family gatherings, celebrations, and winter chinese holidays"
+	},
+
+    {
+		"name": "tiffany guo",
+		"mustorder": "fish balls",
+        "favourite": "fish",
+		"favouritespot": "xiang hotpot", 
+		"location": "new york city",
+        "significance": "brings friends and/or family together during celebrations like lunar new year or birthdays"
+	},
+
+    {
+		"name": "kasey bounkong",
+		"mustorder": "rice noodles",
+        "favourite": "noodle",
+		"favouritespot": "gom shabu", 
+		"location": "virginia",
+        "significance": "i never want to eat at my favorite hotpot spot again because of a broken friendship"
+	},
+
+
+    {
+		"name": "daisy chen",
+		"mustorder": "beef",
+        "favourite": "meat",
+		"favouritespot": "haidilao", 
+		"location": "new york city",
+        "significance": "i dropped my vape in hotpot and that's all i think about now."
+	},
+
+    {
+		"name": "jasmin gonzalez",
+		"mustorder": "shrimp or any seafood",
+        "favourite": "fish",
+		"favouritespot": "dolar store", 
+		"location": "orange county/new york city",
+        "significance": "i associate hotpot with friends and family because it's a way we bond and converse."
+	},
+
+    {
+		"name": "marin kim",
+		"mustorder": "thinly sliced pork belly",
+        "favourite": "meat",
+		"favouritespot": "happy lamb", 
+		"location": "new jersey",
+        "significance": "it's very yummy and a good activity with friends."
+	},
+
+    {
+		"name": "lulu zhang",
+		"mustorder": "beef, enoki mushrooms",
+        "favourite": "meat, mushroom",
+		"favouritespot": "shoo loong kan", 
+		"location": "new york city",
+        "significance": "i love that it is both a home-y meal and a social gathering"
+	},
+
+    {
+		"name": "renee chau",
+		"mustorder": "wintermelon, pork belly, noodles",
+        "favourite": "meat, noodle",
+		"favouritespot": "haidilao", 
+		"location": "new york city",
+        "significance": "hotpot signifies family dinners and eating happily without worry. also a way to poop."
+	},
+
+    {
+		"name": "tammi david",
+		"mustorder": "cabbage and glass noodles",
+        "favourite": "vegetable, noodle",
+		"favouritespot": "liuyishou", 
+		"location": "new jersey/new york city",
+        "significance": "reminds me of how special it is to come together with your friends and family and create memories with each other."
+	},
+
+    {
+		"name": "megan rothwell",
+		"mustorder": "beef",
+        "favourite": "meat",
+		"favouritespot": "99 flavor taste", 
+		"location": "new york city",
+        "significance": "it reminds me of my yeye and nainai."
+	},
+
+    {
+		"name": "nicolas zhou",
+		"mustorder": "fried tofu",
+        "favourite": "tofu",
+		"favouritespot": "haidilao", 
+		"location": "los angeles",
+        "significance": " i used to not like it lowkey because iI felt like it was “too chinese” and i’d be forced to talk to so many relatives around the table but now i learned its so fun and good with friends and family you like."
+	},
+
+    {
+		"name": "jenny zhou",
+		"mustorder": "fish tofu, enoki mushrooms",
+        "favourite": "fish, mushroom",
+		"favouritespot": "dalongyi", 
+		"location": "buenos aires/new york city",
+        "significance": "makes me feel warm both physically and emotionally; i only really get hotpot with people i cherish so it’s very special whenever i go."
+	}
+
+]
+
+    
+
+
+
+	
+		
