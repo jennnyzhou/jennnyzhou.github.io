@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8" />
+<!--     <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+        <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <a-scene color-space="sRGB" renderer="colorManagement: true; physicallyCorrectLights: true;" light="defaultLightsEnabled: false" reflection="directionaLight:a-light#dirLight;">
+      <!--       <a-box color="red" position="0 2 -5" rotation="0 45 45" scale="2 2 2"></a-box> -->
+      <a-assets>
+        <img id="skyTexture" src="https://cdn.glitch.global/6464b8c7-572e-474a-8e7f-1590f01f0acd/Chip001_1K_Color.jpg?v=1677696344839">
+        <a-asset-item 
+        id="shark" 
+        src="untitled.blend">
+        </a-asset-item>
+        
+        <img id="floorTexture" src="https://cdn.glitch.global/6464b8c7-572e-474a-8e7f-1590f01f0acd/PaintedMetal006_1K_Color.jpg?v=1677702549618">
+        
+      </a-assets>
+      <a-entity>
+        <a-gltf-model
+          rotation="0 0 0"
+          position="0 0 0"
+          scale="1 1 1"
+          src="#bear"
+          animation-mixer>
+          
+        </a-gltf-model>
+      </a-entity>
+       <a-camera position="-0.081 0.644 2.478" look-controls="enabled: true"></a-camera>
+  
+      <a-sky src="#skyTexture"></a-sky>
+      <a-plane rotation="-90 0 0" width="30" height="30" src="#floorTexture"></a-plane>
+      
+  <a-light id="dirLight" type="directional" intensity="2.5"  position="0 2 3"></a-light>
+  <a-light type="ambient" intensity="0.5"></a-light>
+
+    </a-scene>
+    
+ 
+  </body>
+</html>

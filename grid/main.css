@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b7c4b9;  
+
+}
+
+header {
+    background: #daf0e2;
+}
+
+aside {
+    background-color: #95a69b;
+}
+
+footer {
+    background-color: #3a6148;
+}
+
+
+@media (min-width: 400px) {
+	header { background-color: #daf0e2; }
+}
+
+@media (min-width: 400px) {
+	aside { background-color: #95a69b; }
+}
+
+@media (min-width: 400px) {
+	footer { background-color: #3a6148; }
+}
+
+
+@media (min-width: 1440px) {
+	header { background-color: #658260; }
+}
+
+@media (min-width: 1440px) {
+	aside { background-color: #20451a; color: #d0dbca; }
+}
+
+@media (min-width: 1440px) {
+	footer { background-color: #90ad9a; }
+}
+
+
+@media (min-width: 2560px) {
+    header {background-color: #496349;}
+}
+
+@media (min-width: 2560px) {
+    aside {background-color: #94a194;}
+}
+
+@media (min-width: 2560px) {
+    footer {background-color: #c1d4c1;}
+}
+
+.ba {
+    background-color: #57b823;
+}
+
+main {
+    margin: var(--gene-margin);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    /*grid-template-areas:
+    "header"
+    "main"
+    "aside"
+    "footer";*/
+    grid-column-gap: 1vh;
+    grid-row-gap: 1vh;
+    justify-items: stretch;
+    align-items: stretch;
+    font-size: 20pt;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+ul .one {
+    grid-column-start: 1;
+    grid-column-end: span 1;
+}
+
+ul .two {
+    grid-column-start: 2;
+    grid-column-end: span 1;
+}
+
+ul .three {
+    grid-column-start: 3;
+    grid-column-end: span 1;
+}*/
