@@ -7,7 +7,7 @@ body {
 }
 
 img {
-    max-width: 40%;
+    max-width: 50%;
     border: 5px solid #c0cc95;
 
 }
@@ -15,4 +15,12 @@ img {
 h1 {
     font-weight: 800;
     font-size: 50px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+li {
+    font-size: 25px;
 }
