@@ -11,3 +11,8 @@ img {
     border: 5px solid #c0cc95;
 
 }
+
+h1 {
+    font-weight: 800;
+    font-size: 50px;
+}
