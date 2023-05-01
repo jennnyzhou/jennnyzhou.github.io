@@ -1,0 +1,30 @@
+@import url('https://use.typekit.net/pgx5bqy.css');
+
+body {
+    background-color: black;
+    background-image: url(img/texture.jpeg);
+    mix-blend-mode: overlay;
+    background-size: cover;
+    font-family: aktiv-grotesk-extended, sans-serif;
+   font-style: normal;
+          font-weight: 400;
+    text-align: center;
+}
+
+.text {
+    margin-top: 20%;
+    z-index: 1;
+}
+
+a {
+    color: #cfc480;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+}

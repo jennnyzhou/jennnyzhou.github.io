@@ -25,6 +25,10 @@
   h1:hover {
     color: white;
   }
+
+  a:visited {
+    text-decoration: none;
+  }
   
   @media (max-width: 400px) {
     html,
@@ -35,7 +39,7 @@
     h1 {
       position: relative;
       font-size: 100px;
-      margin-top: 6.5em;
+      margin-top: 5em;
     }
   }
   

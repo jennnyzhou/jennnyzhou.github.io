@@ -1,0 +1,71 @@
+@import url('https://use.typekit.net/pgx5bqy.css');
+
+body {
+    background: rgba(0, 0, 0, 0.504);
+    /* background-image: url(img/texture.jpeg);
+    mix-blend-mode: overlay;
+    background-size: cover; */
+}
+
+.texture {
+    position: fixed;
+    width: 300%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    margin-left: -10vh;
+    mix-blend-mode: overlay;
+    opacity: 1;
+    z-index: 9999;
+}
+
+p {
+    color: white;
+    font-family: "aktiv-grotesk-extended", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 1;
+}
+
+.container {
+    display: flex;
+    align-items: center; 
+}
+
+.text-container {
+    margin-left: 20px;
+}
+
+img {
+    width: 40%;
+}
+
+@media screen and (max-width: 400px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        margin: 3vh;
+    }
+    img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    img {
+        margin-left: 7vh;
+    }
+
+    p {
+        margin-left: 7vh;
+        margin-right: 10vh;
+    }
+
+    .container {
+        margin-top: 20vh;
+
+    }
+}
+
+  
