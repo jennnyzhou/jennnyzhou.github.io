@@ -1,7 +1,7 @@
 @import url('https://use.typekit.net/pgx5bqy.css');
 
 body {
-background: rgba(0, 0, 0, 0.276);
+background: rgba(0, 0, 0, 0.504);
 /* background-image: url(img/texture.jpeg);
 mix-blend-mode: overlay;
 background-size: cover; */
@@ -36,16 +36,14 @@ p{
   img {
     width: 40%;
   }
-
-  h1 {
-    font-family: aktiv-grotesk-extended, sans-serif;
+  
+  ul {
     color: white;
-    text-align: center;
-
   }
 
-
-  
+  a {
+    color: white;
+  }
 
   @media screen and (max-width: 400px) {
     .container {
@@ -57,20 +55,6 @@ p{
     img {
         width: 100%;
     }
-
-    #graph {
-        width: 110%;
-        margin-left: 2vh;
-    }
-
-    h1 {
-        font-size: 15px;
-    }
-
-    p {
-        margin: 3vh;
-    }
-
 }
 
 @media screen and (min-width: 400px) {
@@ -88,22 +72,7 @@ p{
     .container {
         margin-top: 25vh;
     }
-
-    #graph {
-        margin-top: 5vh;
-        margin-left: 44vh;
-        position: absolute;
-    }
-
-    h1 {
-        font-size: 20px;
-        margin-top: 10vh;
-    }
-    
-    p {
-        margin-top: 87vh;
-        margin-bottom: 10vh;
-    }
 }
 
 
+  

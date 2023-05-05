@@ -1,7 +1,7 @@
 @import url('https://use.typekit.net/pgx5bqy.css');
 
 body {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.455);
     background-image: url(img/texture.jpeg);
     mix-blend-mode: overlay;
     background-size: cover;
@@ -27,4 +27,16 @@ a:hover {
 
 a:visited {
     text-decoration: none;
+}
+
+@media screen and (max-width: 400px) {
+   body {
+    background-repeat: no-repeat;
+    background-size: 170%;
+    background-position-x: 45%;
+
+    }
+    .text {
+        margin-top: 35vh;
+    }
 }
