@@ -17,7 +17,7 @@ object-fit: cover;
 margin-left: -10vh;
 mix-blend-mode: overlay;
 opacity: 100%;
-z-index: 9999;
+z-index: -1;
 }
 
 p{
@@ -25,7 +25,6 @@ p{
     font-family: "aktiv-grotesk-extended", sans-serif;
     font-weight: 400;
     font-style: normal;
-    z-index: 1;
 }
 
 .container {
@@ -42,7 +41,9 @@ p{
   }
 
   a {
+    font-family: aktiv-grotesk-extended, sans-serif;
     color: white;
+    z-index: 9999;
   }
 
   @media screen and (max-width: 400px) {

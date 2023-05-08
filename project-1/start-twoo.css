@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body{
+    background: #4e594e;
+    
+}
+
+p {
+    font-family: 'EB Garamond', serif;
+    color: #c0cc95;
+    font-size: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    font-weight: 500;
+
+}
+
+
+.path {
+    position: relative;
+}
+
+  path {
+    fill: transparent;
+    margin-top: 150%;
+ 
+  }
+  
+  text {
+    fill: #c0cc95;
+    font-size: 10px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    margin-top: 150%;
+
+  }
+
+
+  p {
+    font-family: 'EB Garamond', serif;
+    color: #c0cc95;
+    font-size: 30px;
+    position: relative;
+    font-weight: 500;
+}
+
+a {
+    color: #c0cc95;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body{
+    background: #4e594e;
+    
+}
+
+p {
+    font-family: 'EB Garamond', serif;
+    color: #c0cc95;
+    font-size: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    font-weight: 500;
+
+}
+
+
+.path {
+    position: relative;
+}
+
+  path {
+    fill: transparent;
+    margin-top: 150%;
+ 
+  }
+  
+  text {
+    fill: #c0cc95;
+    font-size: 10px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    margin-top: 150%;
+
+  }
+
+
+  p {
+    font-family: 'EB Garamond', serif;
+    color: #c0cc95;
+    font-size: 30px;
+    position: relative;
+    font-weight: 500;
+}
+
+a {
+    color: #c0cc95;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+
