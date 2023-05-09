@@ -9,6 +9,7 @@ fetch(url + '?$limit=100000')
   .then(json => {
     data = json.filter(item => item.bias_motive_description === 'ANTI-ASIAN' && item.complaint_year_number);
 
+    // data[0].county
 
     const years = {};
     data.forEach(item => {

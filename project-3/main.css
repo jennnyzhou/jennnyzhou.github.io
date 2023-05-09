@@ -25,6 +25,9 @@
   h1:hover {
     color: white;
   }
+  a {
+    text-decoration: none;
+  }
 
   a:visited {
     text-decoration: none;
@@ -47,6 +50,9 @@
     h1 {
       font-size: 200px;
       margin-top: 1.7em;
+    }
+    a {
+        text-decoration: none;
     }
   }
 

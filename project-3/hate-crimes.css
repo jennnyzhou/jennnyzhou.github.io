@@ -17,7 +17,7 @@ object-fit: cover;
 margin-left: -10vh;
 mix-blend-mode: overlay;
 opacity: 100%;
-z-index: 9999;
+z-index: 1;
 }
 
 p{
@@ -41,8 +41,12 @@ p{
     font-family: aktiv-grotesk-extended, sans-serif;
     color: white;
     text-align: center;
+    cursor: pointer;
+    z-index: 9999;
 
   }
+
+
 
 
   
