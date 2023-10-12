@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Milligram Trial;
+    src: url(Milligram-regular-trial.ttf);
+  }
+
+  @font-face {
+    font-family: Ivar Display Trial;
+    src: url(IvarDisplayTRIAL-MediumItalic.otf);
+  }
+
 h1 {
     font-family: Ivar Display Trial;
     font-size: 3.5em;

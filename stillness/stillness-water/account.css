@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Milligram Trial;
+    src: url(Milligram-regular-trial.ttf);
+  }
+
+  @font-face {
+    font-family: Ivar Display Trial;
+    src: url(IvarDisplayTRIAL-MediumItalic.otf);
+  }
+
 body {
     background-color: black;
 }
@@ -58,7 +68,7 @@ position: relative;
     position: absolute;
     margin-left: 48em;
     margin-top: -2.5em;
-    padding-bottom: 50px;
+    padding-bottom: 50px ;
 
 }
 
