@@ -1,0 +1,12 @@
+.star {
+    position: absolute;
+    z-index: 999999;
+}
+
+a img {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    margin-left: 88em;
+    margin-top: 2em;
+}
+

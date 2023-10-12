@@ -1,0 +1,58 @@
+h1 {
+    font-family: Ivar Display Trial;
+    font-size: 3.5em;
+    color: white;
+    font-weight: 500;
+    margin-top: 3em;
+    margin-left: 1.5em;
+    display: inline-block;
+    position: absolute;
+}
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -9999;
+}
+
+a {
+    font-family: 'Milligram Trial';
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2em;
+    /* display: flex; Change 'inline-block' to 'block' */
+}
+
+a:hover {
+    color: #b3b3b3;
+}
+/* 
+p {
+    margin-top: 7.9em; /* Adjust the margin as needed */
+    /* margin-left: 30em; /* Adjust the margin as needed */
+
+
+.menu {
+    position: absolute;
+    z-index: 9999;
+    margin-top: 10.7em;
+    margin-left: 50em;
+  }
+
+
+  .home {
+    position: absolute;
+    margin-left: 27em;
+    margin-top: -10em;
+    z-index: 999999;
+  }
+
+  a img {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; }
+

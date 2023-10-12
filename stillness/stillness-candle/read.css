@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+}
+
+video {
+    opacity: 60%;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -9999;
+}
+
+h1 {
+    font-family: 'Ivar Display Trial';
+    font-size: 3.5em;
+    color: white;
+    font-weight: 500;
+    margin-top: 3em;
+    margin-left: 1.5em;
+    display: inline-block;
+    position: absolute;
+}
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -9999;
+}
+
+h2 {
+    font-family: 'Milligram Trial';
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    position: absolute;
+    margin-left: 4.5em;
+    margin-top: 12.3em;
+}
+
+p {
+    margin-top: -3.3em;
+    margin-left: 37em;
+    position: absolute;
+    line-height: 0.8cm;
+    padding-bottom: 50px;
+    font-weight: 500;
+}
+
+.journal {
+    margin-top: 9.5em;
+    margin-left: 41.7em;
+}
+
+
+.star {
+    position: absolute;
+    z-index: 999999;
+}
+
+a img {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    margin-left: 68.9em;
+    margin-top: -10.7em;
+}
+

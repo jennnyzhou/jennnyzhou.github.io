@@ -1,0 +1,51 @@
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -9999;
+}
+
+
+/* Common styling for the textarea and overlay */
+.textarea-container {
+    position: relative;
+}
+
+textarea {
+    font-family: 'Milligram Trial';
+    width: 100%; /* Adjust the width as needed */
+    font-size: 3.5em;
+    background: transparent;
+    color: transparent;
+    resize: none;
+    border: 0 none;
+    outline: none;
+    position: absolute;
+    margin-top: 3em;
+    margin-left: 1.5em;
+    z-index: 9999;
+    color: white;
+}
+
+.overlay {
+    font-family: 'Milligram Trial';
+    font-size: 3.5em; /* Adjust the size as needed for the typed text */
+    background: transparent;
+    position: absolute;
+    top: 3em;
+    left: 1.5em;
+    z-index: 9998;
+}
+
+textarea::placeholder {
+    font-family: "Ivar Display Trial";
+    font-style: normal;
+    font-size: 1em; /* Text size for the placeholder text */
+    color: #ffffffc3; /* Text color for the placeholder */
+}
+
+/* Additional styles specific to type.html */
+/* ... */
