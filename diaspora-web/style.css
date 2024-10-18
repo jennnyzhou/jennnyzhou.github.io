@@ -1,0 +1,81 @@
+body {
+    height: 100vh;
+    margin: 0;
+    /* background: linear-gradient(#00d0ff, #00ff84);  */
+    background-color: blue;
+  }
+  
+
+/* img {
+    border: 1pt solid black;
+} */
+
+.mexico img{
+    position: absolute;
+    margin-left: 5vw;
+    margin-top: 20vh;
+    filter: drop-shadow(-5px 2px 6px #0000003e);
+}
+
+.guatemala img{
+    position: absolute;
+    margin-left: 32vw;
+    margin-top: 5vh;
+    filter: drop-shadow(-5px 2px 6px #0000003e);
+}
+
+
+.peru img{
+    position: absolute;
+    margin-left: 60vw;
+    margin-top: 5vh;
+    filter: drop-shadow(-5px 2px 6px #0000003e);
+}
+
+.brazil img{
+    position: absolute;
+    margin-left: 70vw;
+    margin-top: 50vh;
+    filter: drop-shadow(-5px 2px 6px #0000003e);
+}
+
+.argentina img{
+    position: absolute;
+    margin-left: 40vw;
+    margin-top: 50vh;
+    filter: drop-shadow(-5px 2px 6px #0000003e);
+}
+
+a :hover {
+    filter: drop-shadow(-10px 5px 10px #ff00dd);
+}
+
+h1 {
+    display: inline-block;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 30pt;
+    padding-left: 2%;
+}
+
+h2 {
+    /* display: inline-block; */
+    text-align: right;
+    /* width: calc(100% - 30pt);  */
+    font-family: Helvetica, sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 30pt;
+    float: right;
+    padding-right: 2%;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 20pt;
+    padding: 2%;
+}
+
