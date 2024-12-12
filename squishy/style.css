@@ -1,0 +1,57 @@
+body {
+  background: red;
+}
+
+#bgvideo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 90vw;
+  min-height: 90vh;
+  z-index: -9999;
+  border-radius: 50px;
+  /* box-shadow: 0 0 50px 50px rgba(220, 141, 141, 0.7); */
+}
+
+
+
+
+  h1 {
+    display: inline-block;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 20pt;
+    padding-left: 8%;
+}
+
+h2 {
+    text-align: right;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 20pt;
+    float: right;
+    padding-right: 8%;
+}
+
+h1, h2 {
+  margin-top: 9vh;
+}
+
+a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  font-family: Helvetica, sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: 30pt;
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgba(255, 255, 255, 0.239);
+}
