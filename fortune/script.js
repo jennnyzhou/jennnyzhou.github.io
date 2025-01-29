@@ -9,7 +9,9 @@ var textarray = [
     "fun fact is i cannot think of facts that are fun right now",
     "i am terrified about graduating omg everyone pray i can stay in the country lol",
     "the bathroom in my apartment is shark themed",
-    "there are nine facts in this array including this one ... feeling uninspired 💔 "
+    "i tried dyeing my hair lavender and it looked crazy so i tried to dye it back to brown and it turned gray so now it's back to black and i'm really upset about it",
+    "i didn't tan mindfully this past break and now my back looks like i was put on a grill but no one will ever know",
+    "there are eleven facts in this array including this one ... feeling uninspired 💔 "
 ];
 
 function RndText() {
