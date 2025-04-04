@@ -26,13 +26,13 @@ function setup() {
 function draw() {
     background('white');
 
-    // Update and display phones
+
     for (let phone of phones) {
         phone.update();
         phone.display();
     }
 
-    // Calculate hand angle based on movement direction
+
     let dx = mouseX - prevMouseX;
     let dy = mouseY - prevMouseY;
     if (dx !== 0 || dy !== 0) { 

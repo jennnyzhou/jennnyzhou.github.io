@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Card</title>
+    <link rel="stylesheet" href="questions.css">
+</head>
+<body>
+    <div class="card">
+        <video id="player" controls autoplay></video>
+        <button id="capture">Capture</button>
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <script>
+        var input = document.getElementById("player");
+        input.addEventListener("keypress", function(event) {
+          if (event.key === "Enter") {
+            event.preventDefault();
+            document.getElementById("capture").click();
+          }
+        });
+        </script>
+    
+    <script src="photo.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

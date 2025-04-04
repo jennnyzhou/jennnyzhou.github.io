@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>dob</title>
+  <link rel="stylesheet" href="questions.css">
+</head>
+<body>
+
+  <div class="card">
+  <h1> When were you born? </h1>
+
+<div class="answer">
+
+<input type="date" id="bdayInput" placeholder="Type...">
+<a href="job.html">
+<button id="next" onclick="saveBday()">Next</button>
+</a>
+</div>
+</div>
+
+<script>
+  var input = document.getElementById("bdayInput");
+  input.addEventListener("keypress", function(event) {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      document.getElementById("next").click();
+    }
+  });
+  </script>
+
+<script src="script.js"></script>
+</body>
+</html>

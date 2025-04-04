@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dream Card</title>
+  <link rel="stylesheet" href="id.css">
+</head>
+<body>
+
+    <div class="buttons">
+        <div class="home">
+          <a href="index.html">
+            <button type="button">🏠</button>
+          </a>
+        </div>
+      
+        <div class="specific">
+          <button type="button" class="screenshot" onclick="takeScreenshot()" title="TAKE SCREENSHOT">📷</button>
+        </div>
+      </div>
+      
+
+<div class="card">
+    <div class="title">
+        <h1>UNITED STATES OF AMERICA</h1>
+        <h2><span>P</span>ermanent <span>R</span>esident</h2>
+    </div>
+    <div id="idCard">
+        <div id="container">
+            <img id="userPhoto" src="" alt="User photo">
+        </div>
+        <div id="idText">
+            <div id="userData"></div>
+        </div>
+    </div>
+</div>
+
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+<script src="script.js"></script>
+<script>
+function takeScreenshot() {
+    setTimeout(function () {
+        html2canvas(document.querySelector('.card')).then(canvas => {
+            var dataURL = canvas.toDataURL();
+            var link = document.createElement('a');
+            link.href = dataURL;
+            link.download = 'screenshot.png';
+            link.click();
+        });
+    }, 500);
+}
+
+window.onload = function() {
+  let photoDataURL = localStorage.getItem('capturedPhotoData');
+  if (photoDataURL) {
+    document.getElementById('userPhoto').src = photoDataURL;
+  } else {
+    console.error('No photo data found.');
+  }
+};
+</script>
+
+</body>
+</html>

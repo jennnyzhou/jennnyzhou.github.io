@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>dob</title>
+  <link rel="stylesheet" href="questions.css">
+</head>
+<body>
+
+  <div class="card">
+  <h1> Where are you from? </h1>
+
+<div class="answer">
+
+<input type="text" id="locationInput" placeholder="Type...">
+<a href="reason.html">
+<button id="next" onclick="saveLocation()">Next</button>
+</a>
+</div>
+</div>
+
+<script>
+  var input = document.getElementById("locationInput");
+  input.addEventListener("keypress", function(event) {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      document.getElementById("next").click();
+    }
+  });
+  </script>
+
+<script src="script.js"></script>
+</body>
+</html>
