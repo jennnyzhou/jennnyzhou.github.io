@@ -49,7 +49,7 @@ async function fetchData() {
         const dataObject = JSON.parse(result);
 
         
-        const currentComments = dataObject.items[5].comment_count;
+        const currentComments = dataObject.items[8].comment_count;
         console.log(`Current comments: ${currentComments}`);
 
         

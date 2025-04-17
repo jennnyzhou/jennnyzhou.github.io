@@ -56,6 +56,8 @@ function takeScreenshot() {
         link.href = dataURL;
         link.download = 'screenshot.png'; 
         link.click(); 
+
+        alert('Greenc card saved! Please return this to Jenny to process.');
     }).catch(error => {
         console.error('Screenshot failed:', error);
     });
