@@ -25,10 +25,10 @@ html, body {
 
 body {
     font-family: 'TeX Gyre Heros', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: center;
+    align-items: center; */
     height: 100vh;
     background-image: url("bg.webp");
     background-size: 100% auto;
@@ -52,7 +52,7 @@ h2 {
     margin-top: 0;
 }
 
-/* Card styles */
+
 .card {
     width: 700px;
     height: 500px;
@@ -65,6 +65,10 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* ID Card specific styles */
@@ -104,8 +108,8 @@ h2 {
 }
 
 #container {
-    width: 15vw;
-    height: 20vh;
+    width: 30%;
+    height: 70%;
     overflow: hidden;
     margin-right: 40px;
     margin-left: 20px;
@@ -126,7 +130,9 @@ h2 {
 #idText {
     flex: 1;
     text-align: left;
-    padding: 20px;
+    padding: 20px; /* Increase padding for better spacing */
+    margin-top: 20px; /* Add margin to push it down */
+    position: relative; /* Remove absolute positioning */
 }
 
 #idCard p {
@@ -136,14 +142,14 @@ h2 {
     font-family: Tex Gyre Heros, sans-serif;
 }
 
-/* Button styles */
+
 .buttons {
     position: fixed;
     top: 20px;
     right: 20px;
     display: flex;
     gap: 10px;
-    z-index: 1000; /* Ensure buttons stay on top */
+    z-index: 1000; 
 }
 
 .home, .specific {
@@ -170,48 +176,6 @@ button:hover {
     background: rgb(255, 240, 150);
 }
 
-/* Input styles */
-#nameInput, #bdayInput, #locationInput, #jobInput, #petsInput {
-    background: transparent;
-    border: 1px solid black;
-    font-family: 'Tex Gyre Heros', sans-serif;
-    letter-spacing: -1px;
-    font-weight: 400;
-    font-size: 20pt;
-    padding: 5px;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
-#nameInput::placeholder, #locationInput::placeholder, #jobInput::placeholder, #petsInput::placeholder {
-    color: gray;
-    font-style: italic;
-}
-
-Styles section
-.styles {
-    position: relative;
-    top: -14vh;
-}
-
-/* Radio button fix */
-input[type="radio"] {
-    display: none;
-}
-
-/* Video and canvas styles */
-#player {
-    width: 100%;
-    height: auto;
-}
-
-#capture {
-    margin-top: 20px;
-}
-
-#canvas {
-    display: none;
-}
 
 /* Additional card styles */
 #info {
@@ -252,3 +216,35 @@ span {
 .name {
     text-align: end;
 }
+
+
+.id-row {
+    display: flex;
+    justify-content: space-between;
+    top: 10%;
+    /* margin-bottom: 10px; */
+}
+
+.id-row p {
+    margin: 0;
+    padding: 0 10px;
+    flex: 1;
+    text-align: left;
+}
+
+strong {
+    font-weight: bold;
+    font-size: 10pt;
+    letter-spacing: 0.01rem;
+}
+
+.id-row h2 {
+    font-family: 'PP Editorial Old', serif;
+    font-size: 30pt;
+    margin: 0; 
+    text-align: left; 
+    color: rgb(0, 0, 0);
+    position: relative; 
+    left: -20%; 
+}
+

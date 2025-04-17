@@ -1,0 +1,135 @@
+/* @font-face {
+    font-family: 'Goudy Old Style Bold', serif;
+    src: url(goudy-old-style-boldy.ttf);
+} */
+
+@font-face {
+    font-family: 'Goudy Old Style', serif;
+    src: url(GoudyOldStyleT-Regular.otf);
+}
+
+body {
+    background-color: #7d1f13;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* space between the scent boxes */
+    padding: 2rem;
+    margin-top: 50px;
+}
+
+.scent {
+    width: 220px;
+    height: 515px;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    /* background-image: url(white-texture.jpg);
+    background-size: cover;
+    background-blend-mode: multiply; */
+}
+
+
+
+/* .scent img {
+    width: 30px; 
+    height: 30px;
+} */
+
+.perfume-name {
+    font-family: 'Goudy Old Style', serif;
+    font-size: 15px;
+    top: 10%;
+    position: absolute;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 30pt;
+    letter-spacing: -0.05rem;
+    text-align: center;
+    margin-top: 3rem;
+    z-index: 1;
+}
+
+/* h2 {
+    font-family: 'Goudy Old Style', serif;
+    text-align: center;
+    margin-top: 27rem;
+    z-index: 2;
+} */
+
+/* .brandText {
+    text-align: center;
+    margin-bottom: 15px; 
+} */
+
+.brandText {
+    position: absolute;
+    text-align: center;
+    top: 3%;
+    flex-direction: column; 
+}
+
+.brandText h3 {
+    font-family: Helvetica, sans-serif;
+    text-align: center; 
+    letter-spacing: -0.03rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logoText h4 {
+    font-family: 'Goudy Old Style', serif;
+    font-size: 17px;
+    position: absolute;
+    text-align: center;
+    top: 83%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.logoText h5 {
+    font-family: 'Goudy Old Style', serif;
+    font-size: 8px;
+    padding-top: 10px;
+    letter-spacing: 0.05rem;
+    position: absolute;
+    text-align: center;
+    top: 88%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.trait-icon-wrapper {
+    width: 100px;    
+    height: 100px;  
+    /* padding: 5px;
+    border-radius: 8px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
+    overflow: hidden;  
+}
+
+
+.trait-icon {
+    max-width: 100%; 
+    height: auto;  
+}
+
