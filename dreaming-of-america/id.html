@@ -37,19 +37,28 @@
     </div>
 </div>
 
-<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 <script src="script.js"></script>
 <script>
 function takeScreenshot() {
-    setTimeout(function () {
-        html2canvas(document.querySelector('.card')).then(canvas => {
-            var dataURL = canvas.toDataURL();
-            var link = document.createElement('a');
-            link.href = dataURL;
-            link.download = 'screenshot.png';
-            link.click();
-        });
-    }, 500);
+    const cardElement = document.querySelector('.card'); // Target the card element
+    if (!cardElement) {
+        console.error('Card element not found!');
+        return;
+    }
+
+    html2canvas(cardElement, {
+        useCORS: true, 
+        scale: window.devicePixelRatio 
+    }).then(canvas => {
+        const dataURL = canvas.toDataURL('image/png'); 
+        const link = document.createElement('a');
+        link.href = dataURL;
+        link.download = 'screenshot.png'; 
+        link.click(); 
+    }).catch(error => {
+        console.error('Screenshot failed:', error);
+    });
 }
 
 window.onload = function() {
