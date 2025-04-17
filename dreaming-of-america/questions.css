@@ -1,14 +1,23 @@
 @import url("https://use.typekit.net/cwc0soc.css");
 
 @font-face {
-    font-family: PP Editorial Old;
-    src: url(PPEditorialOld-Ultralight.otf);
-  }
+    font-family: 'TeXGyreHeros';
+    src: url('TeXGyreHeros-Regular.woff2') format('woff2'),
+        url('TeXGyreHeros-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
-  @font-face {
-    font-family: TeX Gyre Heros;
-    src: url(TeXGyreHeros-Regular.otf);
-  } 
+
+@font-face {
+    font-family: 'TeXGyreHeros';
+    src: url('TeXGyreHeros-Bold.woff2') format('woff2'),
+        url('TeXGyreHeros-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
 
   body {
     /* background-color: #ff0000; */
