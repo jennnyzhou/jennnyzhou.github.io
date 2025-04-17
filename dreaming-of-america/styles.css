@@ -139,7 +139,7 @@ span {
 
 #card h2 {
     color: white;
-    font-family: TeX Gyre Heros;
+    font-family: 'TeX Gyre Heros', sans-serif;
     font-size: 30px;
     line-height: 550px;
     letter-spacing: -0.05rem;
