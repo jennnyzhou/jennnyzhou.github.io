@@ -1,4 +1,4 @@
-let sheetID = "1Bt5WbYY1SWL7rXlUyTR8Jq3b4d_0aWC67k4aChUNY-U";
+let sheetID = "1Dgq9bR0KTl9nfPx8z3iKSQP5OqbhZtPz7wP4Uw7iJUY";
 let tabName = 'Sheet1';
 let opensheet_uri = `https://opensheet.elk.sh/${sheetID}/${tabName}`;
 console.log(opensheet_uri);
@@ -85,7 +85,7 @@ function createInlineTraitIcon(svgMarkup, className, scent) {
             el.setAttribute("fill", `url(#${gradientId})`);
         } else {
             if (isWoody) {
-                // For woody SVGs, create a slightly lighter version of the color for odd-numbered layers
+               
                 const baseColor = seasonColors[0] || "#000";
                 if (index % 2 === 1) {
                     // Convert hex to RGB, lighten it, and convert back to hex
